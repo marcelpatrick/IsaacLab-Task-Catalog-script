@@ -17,8 +17,8 @@
 
 ## How to Use it
 
-1- Download this python script
-2- Copy it inside your project folder `C:\Users\[YOUR USER]\[YOUR EXTRENAL PROJECT]\scripts\list_task_catalog.py`
-3- Open Anaconda Prompt and activate your env: `conda activate [YOUR ENVIRONMENT]`
-4- Navigate to your project folder: `cd C:\Users\[YOUR USER]\[YOUR PROJECT]`
-5- Run with command: `python scripts/list_task_catalog.py`
+1. Download this python script
+2. Copy it inside your project folder `C:\Users\[YOUR USER]\[YOUR EXTRENAL PROJECT]\scripts\list_task_catalog.py`
+3. Open Anaconda Prompt and activate your env: `conda activate [YOUR ENVIRONMENT]`
+4. Navigate to your project folder: `cd C:\Users\[YOUR USER]\[YOUR PROJECT]`
+5. Run with command: `python scripts/list_task_catalog.py`
