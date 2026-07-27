@@ -22,4 +22,3 @@
 3. Open Anaconda Prompt and activate your env: `conda activate [YOUR ENVIRONMENT]`
 4. Navigate to your project folder: `cd C:\Users\[YOUR USER]\[YOUR PROJECT]`
 5. Run with command: `python scripts/list_task_catalog.py`
-ok
