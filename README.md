@@ -3,14 +3,15 @@
 ## Context
 - The problem this script fixes:
 
-  * I generated an external project using the wizard project creator and, during its creation, I selected the specific libraries it should be created with. Project Wizard only supports rl_games, rsl, skrl, ab3.
-  * Now I want to run different tasks from the IsaacLab original project in my project.
-  * However, my external project only supports tasks that run on the libraries that it was generated with but I don't know which tasks from the original project are supported by the libraries in my external project.
-  * How to figure out which other IsaacLab tasks can be run by my external project ???
-  * Then how to figure out which run command to use for each?
+  * You cloned NVIDIA's [IsaacLab](https://github.com/isaac-sim/IsaacLab) original project to your local machine. It comes with several tasks. P
+  * You generated an external project using the [Wizard Project Creator](https://github.com/marcelpatrick/create-a-new-external-isaaclab-project/blob/main/README.md ) and, during its creation, you selected the libraries it should be created with from a list of supported ones (project Wizard only supports rl_games, rsl, skrl, ab3).
+  * Now you want to run different tasks from the IsaacLab original project inside your external project.
+  * However, you don't know which tasks from the original project are supported by the libraries in your external project.
+  * How to figure out which IsaacLab tasks can be run by your external project ???
+  * Then, how to figure out which run command to use for each?
 
 - The solution:
-  * A script that outputs a table of supported tasks I can run on my project (according to the libraries I have in it)
+  * A script that outputs a table of tasks you can run in your project with their respective run commands.
 
 ## Prerequisites
 * Have IsaacSim installed
