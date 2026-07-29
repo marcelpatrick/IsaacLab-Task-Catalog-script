@@ -35,3 +35,8 @@ The script will return a table listing all tasks inside the original IsaacLab pr
   * YES: Runnable by your current external project
   * NO: Not runnable by your current external project
   * NO — but supported by Project Wizard: Project Wizard can create projects with any of these 4 libraries (rl_games, rsl, skrl, ab3). Let's say that during project creation you only selected rl_games. If a task requires rsl, it cannot be run by your current project but you can create another project with Project Wizard, select rsl for that project, and run this task on that project. 
+
+## WHAT THIS SCRIPT DOES NOT DO
+ 
+It does not train, does not launch Isaac Sim, does not touch your logs, and does not modify a
+single file in your project or in the Isaac Lab install. It only reads and prints a table on your CLI.
